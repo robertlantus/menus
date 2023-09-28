@@ -114,3 +114,19 @@ ul.open {
     }
 
 }
+
+/* SVG */
+
+.open-svg svg {
+    cursor: pointer;
+    fill: #1f2937;
+    stroke-width: 7;
+    stroke-linecap: round; 
+}
+
+.close-svg svg {
+    cursor: pointer;
+    stroke: #1f2937; 
+    stroke-width: 7;
+    stroke-linecap: round; 
+}
