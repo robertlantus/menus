@@ -1,6 +1,10 @@
 
 /* Hamburger 1 Cross 2 (more Whippet like) */
 
+nav {
+    padding: 1rem;
+}
+
 .bttn {
     height: 1rem;
     width: 1.5rem;
