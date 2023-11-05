@@ -25,18 +25,18 @@
 //     document.body.style.backgroundColor = "rgba(0,0,0,0)";
 // });
 
-
+// Original Menus
 // Hamburger 
 
-const hamburger = () => {
-    const bttn = document.querySelector('.bttn');
+// const hamburger = () => {
+//     const bttn = document.querySelector('.bttn');
 
-    bttn.addEventListener('click', () => {
-        bttn.classList.toggle('change');
-    });
-}
+//     bttn.addEventListener('click', () => {
+//         bttn.classList.toggle('change');
+//     });
+// }
 
-hamburger();
+// hamburger();
 
 // Totally mine hamburger
 
@@ -49,3 +49,15 @@ hamburger();
 // }
 
 // hamburgerMenu();
+
+// TEROX Travel Hamburger
+
+const hamburgerMenu = () => {
+    const hamburger = document.querySelector('.hamburger');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('change');
+    });
+}
+
+hamburgerMenu();
