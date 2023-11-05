@@ -37,3 +37,15 @@ const hamburger = () => {
 }
 
 hamburger();
+
+// Totally mine hamburger
+
+// const hamburgerMenu = () => {
+//     const hamburger = document.querySelector('.hamburger');
+
+//     hamburger.addEventListener('click', () => {
+//         hamburger.classList.toggle('change');
+//     });
+// }
+
+// hamburgerMenu();
